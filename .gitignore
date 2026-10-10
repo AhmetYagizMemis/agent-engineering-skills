@@ -1,0 +1,41 @@
+# Operating system artifacts
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local editor state
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+.aws/
+*.pem
+*.key
+
+# Temporary files and logs
+*.tmp
+*.temp
+*.log
+
+# Common local dependency and cache directories
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated test coverage
+.coverage
+.coverage.*
+coverage/
+htmlcov/
